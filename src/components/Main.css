@@ -1,0 +1,381 @@
+/* || MAIN */
+
+.Main {
+    background-color: var(--MAIN-BGCOLOR);
+    padding: 10px;
+    display: grid;
+  }
+  
+  /* FIRST ROW */
+  
+  .heading__h1 {
+    font-size: 30px;
+  }
+  
+  /* SECOND ROW */
+  
+  .secondRow {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .examUnitDiv {
+    background-color: var(--GRIDITEM2-BGCOLOR);
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .examUnitDiv__P {
+    font-size: 8px;
+  }
+  
+  .grey {
+    color: rgb(215, 215, 215);
+  }
+  
+  .examUnitDiv__h1 {
+    font-size: 20px;
+  }
+  
+  .examUnitDiv__lastline {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .examUnitDiv__imageContainer {
+    display: flex;
+    position: relative;
+  }
+  
+  .examUnitDiv__imageContainer img {
+    width: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+  
+  }
+  
+  .examUnitDiv__imageContainer div:first-child {
+    position: absolute;
+    bottom: -4px;
+    z-index: 3;
+  }
+  
+  .examUnitDiv__imageContainer div:nth-child(2) {
+    position: absolute;
+    left: 10px;
+    bottom: -4px;
+    z-index: 2;
+  }
+  .examUnitDiv__imageContainer div:nth-child(3) {
+    position: absolute;
+    left: 20px;
+    bottom: -4px;
+    z-index: 1;
+  }
+  
+  .examUnitDiv__eight {
+    position: absolute;
+    bottom: -0.3px;
+    left: 30px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fab991;
+    display: grid;
+    place-content: center;
+  
+  }
+  
+  .examUnitDiv__eight p {
+    font-size: 9px;
+    font-weight: bold;
+  }
+  
+  .examUnitDiv__testingContainer p:first-child {
+    font-size: 10px;
+    text-decoration: underline;
+  }
+  
+  .homeworkDiv {
+    background-color: var(--GRIDITEM3-BGCOLOR);
+    padding: 10px;
+    border-radius: 7px;
+  }
+  
+  .homeworkDiv__checkMarkIcon {
+    font-size: 20px;
+    color: var(--GRIDITEM3-COLOR);
+  }
+  
+  .homeworkDiv__h3 {
+    font-size: 14px;
+    color: var(--GRIDITEM3-COLOR);
+  }
+  
+  .homeworkDiv__p {
+    font-size: 10px;
+    color: var(--GRIDITEM3-COLOR);
+    margin-top: 10px;
+  }
+  
+  .readingDiv {
+    background-color: var(--GRIDITEM4-BGCOLOR);
+    padding: 10px;
+    border-radius: 7px;
+  }
+  
+  .readingDiv__checkMarkIcon {
+    font-size: 20px;
+    color: var(--GRIDITEM4-COLOR);
+  }
+  
+  .readingDiv__h3 {
+    font-size: 14px;
+    color: var(--GRIDITEM4-COLOR);
+  }
+  
+  .readingDiv__p {
+    font-size: 10px;
+    color: var(--GRIDITEM4-COLOR);
+    margin-top: 10px;
+  }
+  
+  /* THIRD ROW */
+  
+  .thirdRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .groupDiv {
+    background-color: var(--GRIDITEM5-BGCOLOR);
+    padding: 20px;
+    border-radius: 7px;
+  }
+  
+  .groupDiv__info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .groupDiv__bellContainer {
+    justify-self: end;
+  }
+  
+  .groupDiv__bellIcon {
+    font-size: 14px;
+  }
+  
+  .groupDiv__info h3 {
+    font-size: 14px;
+  }
+  
+  .groupDiv__info p {
+    font-size: 10px;
+    color: grey;
+    margin-bottom: 10px;
+  }
+  
+  .groupDiv__homework {
+    position: relative;
+    background-color: var(--GRIDITEM5-OTHERCOLOR);
+    padding: 10px;
+    border-radius: 7px;
+    color: #fff;
+  }
+  
+  .groupDiv__homework h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .groupDiv__homework p {
+    font-size: 10px;
+  }
+  
+  .groupDiv__online {
+    display: block;
+  }
+  
+  .groupDiv__arrowContainer {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .groupDiv__arrowIcon {
+    font-size: 12px;
+  }
+  
+  .groupDiv__lesson {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  
+  .groupDiv__lesson p:nth-child(2) {
+    justify-self: end;
+    font-size: 10px;
+  }
+  
+  .groupDiv__lesson p:last-child {
+    font-size: 10px;
+    color: grey;
+  }
+  
+  .groupDiv__lesson h3 {
+    font-size: 14px;
+  }
+  
+  .englishForBeginners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .englishForBeginners__iconDiv {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+  }
+  
+  .englishForBeginners__icon {
+    font-size: 20px;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .englishForBeginners__whiteDiv {
+    width: 130px;
+    height: 7px;
+    background-color: #dfe2e9;
+    border-radius: 5px;
+  }
+  
+  .englishForBeginners__percentage {
+    position: relative;
+  }
+  
+  .englishForBeginners__orangeDiv {
+    width: 100px;
+    height: 7px;
+    background-color: #ffa067;
+    border-radius: 5px;
+    
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .englishForBeginners__h3 {
+    font-size: 16px;
+  }
+  
+  .englishForBeginners__p {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  
+  /* FOURTH ROW */
+  
+  .fourthRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .grammarDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+    border: 1px solid #dee2ea;
+    border-radius: 7px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .grammarDiv__pencilContainer {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px gray;
+    display: grid;
+    place-content: center;
+  }
+  
+  .grammarDiv__pencilIcon {
+    color: #7666c9;
+  }
+  
+  .grammarDiv__textContent h3 {
+    font-size: 14px;
+  }
+  
+  .grammarDiv__textContent p {
+    font-size: 10px;
+  }
+  
+  .grammarDiv__arrowForwardContainer {
+    position: absolute;
+    right: 20px;
+  }
+  
+  .grammarDiv__arrowForwardIcon {
+    font-size: 12px;
+  }
+  
+  .dictionaryDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+    border: 1px solid #dee2ea;
+    border-radius: 7px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .dictionaryDiv__iconContainer {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px gray;
+    display: grid;
+    place-content: center;
+  }
+  
+  .dictionaryDiv__icon {
+    color: #fb7a43;
+  }
+  
+  .dictionaryDiv__textContainer h3 {
+    font-size: 14px; 
+  }
+  
+  .dictionaryDiv__textContainer p {
+    font-size: 10px; 
+  }
+  
+  .dictionaryDiv__arrowForwardDiv {
+    position: absolute;
+    right: 20px;
+  }
+  
+  .dictionaryDiv__arrowForwardIcon {
+    font-size: 12px;
+  }
