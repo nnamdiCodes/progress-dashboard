@@ -1,5 +1,4 @@
 import React from 'react'
-import './Profile.css'
 import { IoIosArrowForward } from 'react-icons/io'
 import { TfiPencil } from 'react-icons/tfi'
 import { SiDictionarydotcom } from 'react-icons/si'

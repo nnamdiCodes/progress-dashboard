@@ -1,5 +1,4 @@
 import React from 'react'
-import './Nav.css'
 import { PiSlidersFill } from 'react-icons/pi'
 import { IoQrCodeOutline, IoPersonOutline } from 'react-icons/io5'
 import { SlGraph } from 'react-icons/sl'

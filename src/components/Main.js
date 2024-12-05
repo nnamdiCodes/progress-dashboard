@@ -1,5 +1,4 @@
 import React from 'react'
-import './Main.css'
 import Heading from './Heading'
 import ExamUnit from './ExamUnit'
 import Homework from './Homework'
